@@ -1,5 +1,6 @@
 # readelf_test
 
+```
 $ tree .
 .
 ├── b.c
@@ -17,3 +18,4 @@ $ readelf -w a.out | grep filename | grep -v "\.h"
  DW_MACRO_start_file - lineno: 0 filenum: 1 filename: b.c
  DW_MACRO_start_file - lineno: 0 filenum: 1 filename: dir/c.c
 $ 
+```
